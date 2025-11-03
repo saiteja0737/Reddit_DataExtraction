@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ```
 
 ### Configuration
-1. Create a file named `reddit.env` in the project directory
+1. Create a file named [`REDDIT_API.env`](REDDIT_API.env) in the project directory
 2. Add your Reddit API credentials in the following format:
 ```
 REDDIT_CLIENT_ID=your_client_id_here
@@ -59,10 +59,10 @@ REDDIT_USER_AGENT=your_user_agent_here
 ### Execution
 
 **Option 1: Google Colab**
-1. Upload `Reddit_DataExtraction.ipynb` to Google Colab
+1. Upload [`Reddit_DataExtraction.ipynb`](Reddit_DataExtraction.ipynb) to Google Colab
 2. Mount your Google Drive
 3. Update the file paths in the notebook to match your Drive structure
-4. Ensure `reddit.env` file is in the correct directory
+4. Ensure `REDDIT_API.env`(REDDIT_API.env) file is in the correct directory
 5. Run all cells sequentially
 
 **Option 2: Local Jupyter Notebook**
