@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ```
 
 ### Configuration
-1. Create a file named `REDDIT_API.env (https://github.com/saiteja0737/Reddit_DataExtraction/blob/main/REDDIT_API.env)` in the project directory
+1. Create a file named [`REDDIT_API.env`](REDDIT_API.env) in the project directory
 2. Add your Reddit API credentials in the following format:
 ```
 REDDIT_CLIENT_ID=your_client_id_here
