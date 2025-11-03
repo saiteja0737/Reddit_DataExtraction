@@ -58,7 +58,11 @@ REDDIT_USER_AGENT=your_user_agent_here
 
 ### Execution
 
-**Option 1: Google Colab**
+**Option 1: Run Python Script (Direct)**
+```
+python Reddit_DataExtraction.py
+```
+**Option 2: Google Colab**
 1. Upload [`Reddit_DataExtraction.ipynb`](Reddit_DataExtraction.ipynb) to Google Colab
 2. Mount your Google Drive
 3. Update the file paths in the notebook to match your Drive structure
@@ -113,11 +117,12 @@ The final output file contains 760 unique posts collected from three AI-related 
 
 ## Project Structure
 ```
-├── Reddit_DataExtraction.ipynb    # Main Jupyter notebook with all code
-├── reddit.env                      # Environment file template (API credentials)
-├── requirements.txt                # Python dependencies
-├── reddit_data.csv                 # Output dataset (760 posts)
-└── README.md                       # This file
+├── [Reddit_DataExtraction.py](Reddit_DataExtraction.py)          # Main Python script
+├── [Reddit_DataExtraction.ipynb](Reddit_DataExtraction.ipynb)    # Jupyter notebook version (with outputs)
+├── [REDDIT_API.env](REDDIT_API.env)                              # Environment file template
+├── [requirements.txt](requirements.txt)                          # Python dependencies
+├── [reddit_data.csv](reddit_data.csv)                            # Output dataset (760 posts)
+└── [README.md](README.md)                                        # This file
 ```
 
 ## Technologies Used
