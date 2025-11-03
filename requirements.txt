@@ -1,0 +1,15 @@
+
+# External packages (require installation)
+# Reddit API wrapper for accessing Reddit data
+praw
+
+# Load environment variables from .env files for secure credential management
+python-dotenv
+
+# Data manipulation and analysis library for creating DataFrames and exporting to CSV
+pandas
+
+# Built-in Python modules (no installation needed)
+# csv - Reading and writing CSV files
+# os - Operating system interface for file paths
+# warnings - Warning control for suppressing non-critical messages
